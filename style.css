@@ -47,6 +47,7 @@ header p{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 section{
     padding-top: 10vh;
