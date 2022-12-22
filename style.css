@@ -54,10 +54,18 @@ section{
 section.imagem p{
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.507);
 }
 section > p{
     padding-bottom: 2em;
+}
+section#flor {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+}
+section#livro{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right center;
 }
 a{
     color: white;
