@@ -4,8 +4,12 @@
     padding: 0px;
     font-size: 1em;
 }
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
+:root{
+    --fontetitulo: 'Passion One', cursive;
+    --fontetexto: 'Sriracha', Arial, Verdana, Helvetica, sans-serif;
+}
 .texto{
     background-color: white;
     color: black;
