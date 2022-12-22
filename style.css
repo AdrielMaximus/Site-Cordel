@@ -4,6 +4,9 @@
     padding: 0px;
     font-size: 1em;
 }
+.texto{
+    background-color: aqua;
+}
 header{
     padding-top: 50px;
     padding-bottom: 50px;
