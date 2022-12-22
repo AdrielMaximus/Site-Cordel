@@ -52,8 +52,12 @@ section{
     font-size: 5vw;
 }
 section.imagem p{
-    width: 400px;  
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.349);
+}
+section > p{
+    padding-bottom: 2em;
 }
 a{
     color: white;
