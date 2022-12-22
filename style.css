@@ -4,8 +4,11 @@
     padding: 0px;
     font-size: 1em;
 }
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
 .texto{
-    background-color: aqua;
+    background-color: white;
+    color: black;
 }
 header{
     padding-top: 50px;
