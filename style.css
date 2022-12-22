@@ -16,6 +16,7 @@ html, body{
     font-family: var(--fontpadrao);
 }
 header{
+    font-family: var(--fontetitulo);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -29,7 +30,6 @@ header h1{
 .texto{
     background-color: white;
     color: black;
-    font-family: var(--fontetexto);
     font-size: 4vw;
     font-weight: bold;
 }
@@ -42,6 +42,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fontetexto);
 }
 section.imagem p{
     width: 400px;  
