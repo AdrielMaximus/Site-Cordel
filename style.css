@@ -18,14 +18,15 @@
 html, body{
     min-height: 100vh;
     font-family: var(--fontpadrao);
+    background-color: darkgray;
 }
 header{
-    font-family: var(--fontetitulo);
     text-align: center;
     background-color: black;
     color: white;
 }
 header h1{
+    font-family: var(--fontetitulo);
     padding-top: 50px;
     font-size: 10vw;
     font-variant: small-caps;
@@ -36,12 +37,16 @@ header p{
 .texto{
     background-color: white;
     color: black;
-    font-size: 4vw; 
+    font-size: 3vw; 
     font-weight: bold;
 }
 .imagem{
     background-color: darkgray;
     color: white;
+    font-size: 3vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+    background-position: right center;
+    background-size: cover;
 }
 section{
     padding-top: 10vh;
@@ -49,23 +54,22 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fontetexto); 
-    font-size: 5vw;
+    font-size: 3.5vw;
 }
 section.imagem p{
     display: inline-block;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
 }
 section > p{
     padding-bottom: 2em;
 }
 section#flor {
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-position: right center;
 }
 section#livro{
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-position: right center;
 }
 a{
     color: white;
