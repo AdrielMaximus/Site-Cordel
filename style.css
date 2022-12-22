@@ -21,6 +21,20 @@ html, body{
     font-size: 4vw;
     font-weight: bold;
 }
+.imagem{
+    background-color: darkgray;
+    color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
 header{
     padding-top: 50px;
     padding-bottom: 50px;
