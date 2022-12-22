@@ -8,11 +8,14 @@
 
 :root{
     --fontetitulo: 'Passion One', cursive;
-    --fontetexto: 'Sriracha', Arial, Verdana, Helvetica, sans-serif;
+    --fontetexto: 'Sriracha', cursive;
 }
 .texto{
     background-color: white;
     color: black;
+    font-family: var(--fontetexto);
+    font-size: 4vw;
+    font-weight: bold;
 }
 header{
     padding-top: 50px;
